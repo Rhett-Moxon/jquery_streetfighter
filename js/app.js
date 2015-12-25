@@ -81,7 +81,7 @@ $(function() {
   }
 
 
-  function handleUp(e) {
+  function spaceBarUp(e) {
 
       if (e.which == 32) {
 
