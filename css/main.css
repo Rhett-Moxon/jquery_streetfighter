@@ -25,6 +25,7 @@ section{
 	height: 494px;
 }
 
+<<<<<<< HEAD
 #images.ready{
   background-image: url("../images/ready.gif");
 }
@@ -40,6 +41,10 @@ section{
 
 #ball {
 	background-image: url("../images/ball.gif");
+=======
+#ball {
+	background-image: url('../images/ball.gif');
+>>>>>>> 6a264354ef0e33aa9e5a09d05aad9f825c49ac75
 	width: 156px;
 	height: 90px;
 	display: none;
