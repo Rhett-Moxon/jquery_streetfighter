@@ -1,0 +1,65 @@
+body{
+	background-color: black;
+}
+
+#container{
+	overflow: auto;
+	width: 1000px;
+	margin: 6em auto 0em auto;
+	background-color: white;
+}
+
+section{
+	display: inline-block;
+	background-color: white;
+	vertical-align: top;
+}
+
+#ryu{
+	float: left;
+	position: relative;
+}
+
+#images{
+	width: 659px;
+	height: 494px;
+}
+
+#images.ready{
+  background-image: url("../images/ready.gif");
+}
+
+#images.pose{
+  background-image: url("../images/pose.gif");
+}
+
+#images.throw{
+  background-image: url("../images/throw.png");
+}
+
+
+#ball {
+	background-image: url("../images/ball.gif");
+	width: 156px;
+	height: 90px;
+	display: none;
+	position: absolute;
+	z-index: 10;
+	top: 170px;
+	left: 500px;
+	float: left;
+}
+
+#instruct {
+	padding: 6em 2em 0em 0em;
+	width: 200px;
+	height: 494px;
+	box-sizing: border-box;
+	float: right;
+}
+
+p{
+	padding: 0;
+	margin: 1em 0em 0em 0em;
+	color: red;
+}
